@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1423">
+  <meta name="description" content="CyberSafe: aprende a reconocer amenazas digitales y a proteger tus cuentas y dispositivos con explicaciones sencillas.">
+  <title>CyberSafe | Tu seguridad digital comienza aquí</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body data-page="home">
+  <header class="site-header" id="inicio">
+    <nav class="nav-wrap container" aria-label="Navegación principal">
+      <a href="index.html" class="brand" aria-label="CyberSafe - Inicio">
+        <span class="brand-icon" data-icon="shield-check" aria-hidden="true"></span>
+        <span>CyberSafe</span>
+      </a>
+      <div class="nav-links">
+        <a class="active" href="#inicio">Inicio</a>
+        <a href="#conceptos">Conceptos</a>
+        <a href="#amenazas">Amenazas</a>
+        <a href="#protegerte">Cómo protegerte</a>
+        <a href="#recursos">Recursos</a>
+        <a class="btn btn-primary btn-sm" href="cuestionario.html">Cuestionario <span data-icon="arrow-right"></span></a>
+      </div>
+      <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-controls="mobile-menu" aria-expanded="false"><span data-icon="menu"></span></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="hero-layout">
+          <div class="hero-copy">
+            <p class="eyebrow cyan">CONOCIMIENTO QUE TE PROTEGE</p>
+            <h1 id="hero-title">Tu seguridad<br class="desktop-break"> digital comienza aquí</h1>
+            <p class="hero-description">Aprende a reconocer amenazas, cuidar tus datos y moverte por internet con más confianza. Sin conocimientos técnicos, a tu ritmo.</p>
+            <a href="#conceptos" class="btn btn-primary btn-hero">Comenzar a aprender <span data-icon="arrow-right"></span></a>
+            <p class="hero-caption"><span data-icon="book-open"></span> Contenido abierto · Ejemplos reales · Paso a paso</p>
+          </div>
+          <div class="scam-panel">
+            <div class="scam-panel-heading"><span>ANTES DE HACER CLIC</span><span data-icon="scan-line" aria-hidden="true"></span></div>
+            <div class="fake-email">
+              <div class="email-heading"><span data-icon="mail"></span><div><strong>¿Es realmente tu banco?</strong><small>De: soporte@banco-ejemplo.invalid</small></div></div>
+              <div class="email-body">“Tu cuenta se bloqueará hoy.<br>Confirma tus datos ahora.”</div>
+              <span class="warning-chip"><span data-icon="alert-triangle"></span> La urgencia es una señal de alerta</span>
+            </div>
+            <ol class="scam-steps">
+              <li><span>1</span> Pausa: no actúes por presión.</li>
+              <li><span>2</span> Comprueba el origen por otro canal.</li>
+              <li><span>3</span> Protege tus datos: no los compartas.</li>
+            </ol>
+            <p class="fine-print">Ejemplo ficticio con un dominio reservado, no operativo.</p>
+          </div>
+        </div>
+        <div class="hero-essentials">
+          <p class="eyebrow cyan">EMPIEZA POR LO ESENCIAL</p>
+          <div class="essentials-grid">
+            <a href="amenaza.html?tipo=phishing" class="essential-card"><span data-icon="mail-warning"></span><span><strong>Reconoce un engaño</strong><small>Identifica correos y mensajes sospechosos.</small></span></a>
+            <a href="#protegerte" class="essential-card"><span data-icon="key-round"></span><span><strong>Cuida tus cuentas</strong><small>Crea contraseñas únicas y añade otro factor.</small></span></a>
+            <a href="cuestionario.html" class="essential-card"><span data-icon="clipboard-check"></span><span><strong>Pon a prueba lo aprendido</strong><small>Practica con cinco situaciones cotidianas.</small></span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-white" id="conceptos" aria-labelledby="conceptos-title">
+      <div class="container">
+        <p class="eyebrow">01 / ENTIENDE LO ESENCIAL</p>
+        <h2 id="conceptos-title">¿Qué es la ciberseguridad?</h2>
+        <p class="section-subtitle">Es el conjunto de hábitos y herramientas que ayudan a proteger tus dispositivos, tus cuentas y tu información frente a accesos o daños no deseados.</p>
+        <div class="concepts-grid">
+          <div class="concept-feature">
+            <p class="eyebrow">NO SE TRATA SOLO DE TECNOLOGÍA</p>
+            <h3>Se trata de lo que es importante para ti.</h3>
+            <p>Tus apuntes, tus fotos, tu dinero y tus conversaciones merecen cuidado. Un pequeño hábito puede reducir el riesgo de perderlos o exponerlos.</p>
+            <p class="concept-tip">En el día a día: revisar un enlace antes de abrirlo, actualizar el móvil o hacer una copia de un trabajo antes de entregarlo.</p>
+          </div>
+          <div class="concept-list">
+            <div class="concept-item"><span class="concept-icon" data-icon="lock-keyhole"></span><div><h3>Confidencialidad</h3><p>Solo las personas autorizadas deberían ver tus datos. Por ejemplo, mantener tus mensajes privados.</p></div></div>
+            <div class="concept-item"><span class="concept-icon" data-icon="badge-check"></span><div><h3>Integridad</h3><p>La información no debe cambiar sin permiso. Por ejemplo, que tus notas no sean alteradas.</p></div></div>
+            <div class="concept-item"><span class="concept-icon" data-icon="cloud-check"></span><div><h3>Disponibilidad</h3><p>Poder acceder a tu información cuando la necesitas. Una copia ayuda si pierdes el portátil.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="amenazas" aria-labelledby="amenazas-title">
+      <div class="container">
+        <p class="eyebrow">02 / RECONOCE LAS SEÑALES</p>
+        <h2 id="amenazas-title">Amenazas digitales</h2>
+        <p class="section-subtitle">No todos los riesgos se ven igual. Conoce cinco amenazas frecuentes y aprende a detectar las señales antes de actuar.</p>
+        <div class="threat-grid">
+          <a class="threat-card" href="amenaza.html?tipo=phishing"><span class="card-icon" data-icon="mail-warning"></span><h3>Phishing</h3><p>Mensajes que se hacen pasar por alguien de confianza para conseguir tus datos.</p><span class="card-link">Señales y prevención <span data-icon="arrow-up-right"></span></span></a>
+          <a class="threat-card" href="amenaza.html?tipo=malware"><span class="card-icon" data-icon="bug"></span><h3>Malware</h3><p>Programas maliciosos que pueden dañar equipos, espiar o robar información.</p><span class="card-link">Señales y prevención <span data-icon="arrow-up-right"></span></span></a>
+          <a class="threat-card" href="amenaza.html?tipo=ransomware"><span class="card-icon" data-icon="file-lock-2"></span><h3>Ransomware</h3><p>Un tipo de malware que bloquea tus archivos y exige un pago para recuperarlos.</p><span class="card-link">Señales y prevención <span data-icon="arrow-up-right"></span></span></a>
+          <a class="threat-card" href="amenaza.html?tipo=identidad"><span class="card-icon" data-icon="contact-round"></span><h3>Robo de identidad</h3><p>El uso de tus datos personales para hacerse pasar por ti sin permiso.</p><span class="card-link">Señales y prevención <span data-icon="arrow-up-right"></span></span></a>
+          <a class="threat-card" href="amenaza.html?tipo=ingenieria"><span class="card-icon" data-icon="messages-square"></span><h3>Ingeniería social</h3><p>Manipulación de la confianza o las emociones para que hagas algo arriesgado.</p><span class="card-link">Señales y prevención <span data-icon="arrow-up-right"></span></span></a>
+          <div class="threat-pause"><span class="card-icon" data-icon="hand"></span><h3>Si algo no encaja, pausa.</h3><p>Verificar antes de responder es una buena decisión. No necesitas saber de tecnología para pedir una segunda opinión.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="protegerte" aria-labelledby="proteccion-title">
+      <div class="container">
+        <p class="eyebrow cyan">03 / CONVIERTE EL CUIDADO EN HÁBITO</p>
+        <h2 id="proteccion-title">Cómo protegerte</h2>
+        <p class="section-subtitle">No necesitas hacerlo todo de golpe. Empieza con una cuenta importante y añade estas capas de protección.</p>
+        <div class="protection-grid">
+          <article class="protection-card"><span data-icon="key-round"></span><h3>Contraseñas únicas y seguras</h3><p>Usa una contraseña larga y distinta para cada cuenta. Una frase de varias palabras no relacionadas es más fácil de recordar. Evita nombres, fechas y patrones.</p><strong>Empieza por tu correo principal.</strong></article>
+          <article class="protection-card"><span data-icon="square-asterisk"></span><h3>Gestores de contraseñas</h3><p>Guardan tus contraseñas y generan otras únicas. Elige un gestor de confianza, protege su contraseña maestra y activa un segundo factor si está disponible.</p><strong>No tendrás que recordar todas.</strong></article>
+          <article class="protection-card"><span data-icon="smartphone"></span><h3>Autenticación multifactor</h3><p>Añade otra prueba de identidad además de la contraseña, como una app de autenticación o una llave de seguridad. Nunca compartas sus códigos.</p><strong>Actívala en correo, banca y redes.</strong></article>
+          <article class="protection-card"><span data-icon="refresh-cw"></span><h3>Actualizaciones</h3><p>Corrigen fallos que pueden aprovechar los atacantes. Activa las actualizaciones automáticas del sistema, el navegador y tus aplicaciones.</p><strong>Reinicia cuando sea necesario.</strong></article>
+          <article class="protection-card"><span data-icon="hard-drive"></span><h3>Copias de seguridad</h3><p>Conserva una copia de tus archivos importantes en otro lugar. Mantén una copia desconectada o protegida y comprueba que puedes restaurarla.</p><strong>Una copia sin probar puede fallar.</strong></article>
+          <article class="protection-card"><span data-icon="eye-off"></span><h3>Privacidad</h3><p>Revisa quién puede ver tus publicaciones y qué permisos tienen tus apps. Comparte solo los datos necesarios y desactiva accesos que no uses.</p><strong>Menos exposición, menos oportunidades.</strong></article>
+        </div>
+        <div class="protection-reminder"><span data-icon="lightbulb"></span><p>Tu primer paso hoy: activa la autenticación multifactor en tu correo. Esa cuenta suele servir para recuperar muchas otras.</p></div>
+      </div>
+    </section>
+
+    <section class="section section-white" id="recursos" aria-labelledby="recursos-title">
+      <div class="container">
+        <p class="eyebrow">04 / APRENDE Y CONSULTA</p>
+        <h2 id="recursos-title">Recursos educativos</h2>
+        <p class="section-subtitle">Guías breves, palabras claras y respuestas para aplicar lo que aprendes. Guarda estas recomendaciones como punto de partida.</p>
+        <div class="guides-grid">
+          <article class="guide-card"><span data-icon="mail-check"></span><p class="eyebrow">GUÍA PASO A PASO</p><h3>Comprueba un mensaje sospechoso</h3><ol class="numbered-guide"><li>Lee la dirección completa del remitente; no solo su nombre.</li><li>No abras el enlace. Busca el sitio oficial por tu cuenta.</li><li>Contacta con la entidad desde su app o un número conocido.</li><li>Marca el mensaje como phishing y elimínalo tras guardar las pruebas necesarias.</li></ol></article>
+          <article class="guide-card"><span data-icon="shield-check"></span><p class="eyebrow">GUÍA PASO A PASO</p><h3>Refuerza tu cuenta principal</h3><ol class="numbered-guide"><li>Crea una contraseña larga, única y guárdala en un gestor.</li><li>Activa un segundo factor; prioriza una app o llave de seguridad si puedes.</li><li>Guarda los códigos de recuperación en un lugar protegido.</li><li>Revisa las sesiones abiertas y los datos de recuperación.</li></ol></article>
+        </div>
+        <div class="resource-subsection">
+          <h3>Glosario sin complicaciones</h3>
+          <div class="glossary-grid">
+            <div><h4>Dato personal</h4><p>Información que te identifica, como tu nombre, correo, ubicación o documento.</p></div>
+            <div><h4>Dominio</h4><p>Nombre de un sitio web. Revisa su escritura completa: una letra distinta puede indicar una suplantación.</p></div>
+            <div><h4>Cifrado</h4><p>Transforma la información para que solo pueda leerla quien tenga la clave adecuada.</p></div>
+            <div><h4>Segundo factor</h4><p>Prueba adicional para entrar en una cuenta, como una llave de seguridad o un código de una app.</p></div>
+            <div><h4>Copia de seguridad</h4><p>Duplicado de tus archivos que permite recuperarlos si se pierden o dañan.</p></div>
+            <div><h4>Actualización</h4><p>Nueva versión que puede corregir errores y fallos de seguridad de un programa.</p></div>
+          </div>
+        </div>
+        <div class="resource-bottom">
+          <div class="faq">
+            <h3>Preguntas frecuentes</h3>
+            <div><h4>¿El candado de una web significa que es fiable?</h4><p>No. Indica que la conexión está cifrada, no que quien está detrás sea honesto. Comprueba también el dominio y la petición.</p></div>
+            <div><h4>¿Qué hago si he abierto un enlace sospechoso?</h4><p>No introduzcas datos ni descargues archivos. Cierra la página. Si diste una contraseña, cámbiala desde el sitio oficial y revisa tus sesiones.</p></div>
+            <div><h4>¿Necesito ser experto para protegerme?</h4><p>No. Contraseñas únicas, un segundo factor, actualizaciones y copias de seguridad son buenos hábitos para empezar.</p></div>
+          </div>
+          <aside class="sources-card"><span data-icon="library-big"></span><h3>Fuentes oficiales</h3><p>Amplía la información directamente en estas instituciones. Los enlaces de referencia llevan a sitios externos; el contenido puede estar en inglés.</p>
+            <div class="source"><h4>CISA · Secure Our World</h4><p>Consejos para reconocer el phishing, proteger cuentas y mantener tus dispositivos al día.</p><a href="https://www.cisa.gov/secure-our-world" target="_blank" rel="noopener noreferrer">www.cisa.gov/secure-our-world <span data-icon="external-link"></span></a></div>
+            <div class="source"><h4>NIST · Ciberseguridad</h4><p>Orientaciones y materiales para comprender la gestión del riesgo y la protección de la información.</p><a href="https://www.nist.gov/cybersecurity" target="_blank" rel="noopener noreferrer">www.nist.gov/cybersecurity <span data-icon="external-link"></span></a></div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted section-quiz-cta" aria-labelledby="cta-title">
+      <div class="container"><div class="quiz-cta">
+        <div><p class="eyebrow">05 / PONLO EN PRÁCTICA</p><h2 id="cta-title">Cuestionario educativo</h2><p>Cinco preguntas, cinco oportunidades de aprender. Elige una respuesta y descubre por qué una decisión puede proteger mejor tus datos.</p><p class="cta-note">Sin límite de tiempo. Con una explicación en cada respuesta. El resultado orienta tu repaso; no es una certificación.</p><a class="btn btn-primary" href="cuestionario.html">Comenzar cuestionario <span data-icon="arrow-right"></span></a></div>
+        <div class="cta-illustration"><span data-icon="graduation-cap"></span><strong>5 preguntas</strong><p>Mensajes sospechosos, contraseñas, segundo factor, actualizaciones y copias.</p></div>
+      </div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container"><a href="index.html" class="brand"><span class="brand-icon" data-icon="shield-check"></span><span>CyberSafe</span></a><p>Educación digital para tomar decisiones más seguras. Para estudiantes, docentes y cualquier persona que quiera aprender.</p><small>CyberSafe · Aprender, reconocer y proteger. Material educativo; ninguna medida elimina todos los riesgos.</small></div></footer>
+  <div class="mobile-overlay" hidden></div>
+  <aside class="mobile-menu" id="mobile-menu" aria-label="Menú móvil" aria-hidden="true">
+    <div class="mobile-menu-top"><a href="index.html" class="brand"><span class="brand-icon" data-icon="shield-check"></span><span>CyberSafe</span></a><button type="button" class="mobile-close" aria-label="Cerrar menú"><span data-icon="x"></span></button></div>
+    <p class="eyebrow cyan">EXPLORA CYBERSAFE</p>
+    <nav class="mobile-nav" aria-label="Navegación móvil"><a href="index.html#inicio" data-nav="inicio"><span data-icon="house"></span> Inicio</a><a href="index.html#conceptos" data-nav="conceptos"><span data-icon="arrow-right"></span> ¿Qué es la ciberseguridad?</a><a href="index.html#amenazas" data-nav="amenazas"><span data-icon="arrow-right"></span> Amenazas digitales</a><a href="index.html#protegerte" data-nav="protegerte"><span data-icon="arrow-right"></span> Cómo protegerte</a><a href="index.html#recursos" data-nav="recursos"><span data-icon="arrow-right"></span> Recursos educativos</a><a class="btn btn-primary" href="cuestionario.html">Cuestionario educativo <span data-icon="arrow-right"></span></a></nav>
+    <p>Aprende a reconocer amenazas y a proteger tus datos, paso a paso y sin jerga.</p>
+  </aside>
+</body>
+</html>

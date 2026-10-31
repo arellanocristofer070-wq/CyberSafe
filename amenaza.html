@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b1423">
+  <title>Amenazas digitales | CyberSafe</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body data-page="detail">
+  <header class="site-header">
+    <nav class="nav-wrap container" aria-label="Navegación principal">
+      <a class="brand" href="index.html"><span class="brand-icon" data-icon="shield-check"></span><span>CyberSafe</span></a>
+      <div class="nav-links"><a href="index.html#inicio">Inicio</a><a href="index.html#conceptos">Conceptos</a><a class="active" href="index.html#amenazas">Amenazas</a><a href="index.html#protegerte">Cómo protegerte</a><a href="index.html#recursos">Recursos</a><a class="btn btn-primary btn-sm" href="cuestionario.html">Cuestionario <span data-icon="arrow-right"></span></a></div>
+      <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-controls="mobile-menu" aria-expanded="false"><span data-icon="menu"></span></button>
+    </nav>
+  </header>
+  <main class="detail-main">
+    <div class="container" id="threat-detail" aria-live="polite">
+      <a href="index.html#amenazas" class="back-link"><span data-icon="arrow-left"></span> Amenazas digitales / <span id="breadcrumb-label">Phishing</span></a>
+      <div class="detail-head"><span id="detail-icon" data-icon="mail-warning"></span><p class="eyebrow">CONOCE LA AMENAZA</p><h1 id="detail-title">Phishing</h1><p class="detail-description" id="detail-description">Es un engaño por correo, SMS o mensajería.</p></div>
+      <div class="detail-columns"><section class="detail-box alert" aria-labelledby="alert-title"><h2 id="alert-title">Señales de alerta</h2><ul class="icon-list" id="alert-list"></ul></section><section class="detail-box prevent" aria-labelledby="prevent-title"><h2 id="prevent-title">Cómo prevenirlo</h2><ul class="icon-list" id="prevent-list"></ul></section></div>
+      <div class="daily-example"><p class="eyebrow">UN EJEMPLO COTIDIANO</p><p id="detail-example"></p></div>
+      <section class="after-incident"><h2>¿Y si ya ha ocurrido?</h2><p id="detail-recovery"></p></section>
+      <a href="index.html#amenazas" class="btn btn-outline">Volver a las amenazas <span data-icon="arrow-right"></span></a>
+      <p class="disclaimer">Material educativo. Las señales pueden tener otras causas: verifica la situación antes de sacar conclusiones.</p>
+    </div>
+  </main>
+  <div class="mobile-overlay" hidden></div>
+  <aside class="mobile-menu" id="mobile-menu" aria-label="Menú móvil" aria-hidden="true">
+    <div class="mobile-menu-top"><a href="index.html" class="brand"><span class="brand-icon" data-icon="shield-check"></span><span>CyberSafe</span></a><button type="button" class="mobile-close" aria-label="Cerrar menú"><span data-icon="x"></span></button></div>
+    <p class="eyebrow cyan">EXPLORA CYBERSAFE</p>
+    <nav class="mobile-nav" aria-label="Navegación móvil"><a href="index.html#inicio" data-nav="inicio"><span data-icon="house"></span> Inicio</a><a href="index.html#conceptos" data-nav="conceptos"><span data-icon="arrow-right"></span> ¿Qué es la ciberseguridad?</a><a href="index.html#amenazas" data-nav="amenazas"><span data-icon="arrow-right"></span> Amenazas digitales</a><a href="index.html#protegerte" data-nav="protegerte"><span data-icon="arrow-right"></span> Cómo protegerte</a><a href="index.html#recursos" data-nav="recursos"><span data-icon="arrow-right"></span> Recursos educativos</a><a class="btn btn-primary" href="cuestionario.html">Cuestionario educativo <span data-icon="arrow-right"></span></a></nav>
+    <p>Aprende a reconocer amenazas y a proteger tus datos, paso a paso y sin jerga.</p>
+  </aside>
+</body>
+</html>

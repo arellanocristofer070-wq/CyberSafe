@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b1423">
+  <title>Cuestionario educativo | CyberSafe</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body data-page="quiz">
+  <header class="site-header">
+    <nav class="nav-wrap container" aria-label="Navegación principal">
+      <a class="brand" href="index.html"><span class="brand-icon" data-icon="shield-check"></span><span>CyberSafe</span></a>
+      <div class="nav-links"><a href="index.html#inicio">Inicio</a><a href="index.html#conceptos">Conceptos</a><a href="index.html#amenazas">Amenazas</a><a href="index.html#protegerte">Cómo protegerte</a><a href="index.html#recursos">Recursos</a><a class="btn btn-primary btn-sm" href="cuestionario.html" aria-current="page">Cuestionario <span data-icon="arrow-right"></span></a></div>
+      <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-controls="mobile-menu" aria-expanded="false"><span data-icon="menu"></span></button>
+    </nav>
+  </header>
+  <main class="quiz-page"><div class="container">
+    <a class="back-link" href="index.html#recursos"><span data-icon="arrow-left"></span> Volver al aprendizaje</a>
+    <p class="eyebrow">PRACTICA SIN PRISA</p>
+    <h1 id="quiz-page-title">Cuestionario educativo</h1>
+    <p class="quiz-intro" id="quiz-intro">Una respuesta por pregunta. Recibirás una explicación para aprender, aciertes o no.</p>
+    <div id="quiz-content" aria-live="polite"></div>
+    <p class="quiz-footnote" id="quiz-footnote">Esta actividad es educativa · No registra respuestas ni datos personales.</p>
+  </div></main>
+  <div class="mobile-overlay" hidden></div>
+  <aside class="mobile-menu" id="mobile-menu" aria-label="Menú móvil" aria-hidden="true">
+    <div class="mobile-menu-top"><a href="index.html" class="brand"><span class="brand-icon" data-icon="shield-check"></span><span>CyberSafe</span></a><button type="button" class="mobile-close" aria-label="Cerrar menú"><span data-icon="x"></span></button></div>
+    <p class="eyebrow cyan">EXPLORA CYBERSAFE</p>
+    <nav class="mobile-nav" aria-label="Navegación móvil"><a href="index.html#inicio" data-nav="inicio"><span data-icon="house"></span> Inicio</a><a href="index.html#conceptos" data-nav="conceptos"><span data-icon="arrow-right"></span> ¿Qué es la ciberseguridad?</a><a href="index.html#amenazas" data-nav="amenazas"><span data-icon="arrow-right"></span> Amenazas digitales</a><a href="index.html#protegerte" data-nav="protegerte"><span data-icon="arrow-right"></span> Cómo protegerte</a><a href="index.html#recursos" data-nav="recursos"><span data-icon="arrow-right"></span> Recursos educativos</a><a class="btn btn-primary" href="cuestionario.html">Cuestionario educativo <span data-icon="arrow-right"></span></a></nav>
+    <p>Aprende a reconocer amenazas y a proteger tus datos, paso a paso y sin jerga.</p>
+  </aside>
+</body>
+</html>
